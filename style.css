@@ -14,7 +14,7 @@
     width: 50%;
 }
 .info-content h2{
-    font-size: 35px;
+    font-size: 45px;
 }
 .info-content p{
     font-size: 18px;
@@ -23,16 +23,18 @@
 .btns1{
     background: rgb(229,84,115);
     border: none;
-    padding: 10px;
-    font-size: 14px;
+    padding: 15px;
+    font-size: 16px;
     border-radius: 5px;
     color: white;
+    margin: 10px 0;
 }
 /* header section ent */
 /* bonus section start */
 .bonus-content{
-   margin: 100px;
+   margin: auto;
    width: 80%;
+   margin-top: 100px;
 }
 .title-info{
     text-align: center;
@@ -79,6 +81,7 @@
 .title-info{
     padding-bottom: 10px;
 }
+/* bonus end */
 .flower-1 p{
     text-decoration: underline;
 }
@@ -93,4 +96,49 @@
     text-align: center;
     padding: 20px;
     width: 200px;
+}
+
+/* hot deal start */
+.hot-deal{
+    display: flex;
+    background:  rgb(252,238,241);
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.hot-deal-content{
+    text-align: center;
+    margin: auto;
+    width: 500px;
+}
+.hot-deal-pic{
+    margin: auto;
+}
+.hot-deal-content p{
+    margin: 10px 0px 10px 0px;
+}
+.insta-container{
+    margin: 100px 0px 100px 0px
+}
+.insta-content{
+    width: 80%;
+    text-align:center ;
+    margin: auto;
+}
+.insta-info{
+    width: 300px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.insta-pic{
+    display: flex;
+    justify-content: space-around;
+}
+.pic-size{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+h2{
+    margin-bottom: 20px;
 }
