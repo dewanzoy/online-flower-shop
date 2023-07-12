@@ -150,10 +150,27 @@ h2{
     margin: auto;
     background: url('./images/Rectangle\ 9.png');
     text-align: center;
+    margin-top: 100px;
 }
 input{
     font-size: 14px;
     border: none;
     padding: 15px;
     width: 400px;
+}
+.footer-container{
+    background: black;
+    color: white;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flrs{
+    color: rgb(176,67,90);
+}
+.footer-content p {
+    margin: 10px;
+    
 }
