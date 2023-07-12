@@ -151,6 +151,7 @@ h2{
     background: url('./images/Rectangle\ 9.png');
     text-align: center;
     margin-top: 100px;
+    background-size:cover;
 }
 input{
     font-size: 14px;
@@ -173,4 +174,20 @@ input{
 .footer-content p {
     margin: 10px;
     
+}
+.form-content{
+    background: rgb(17,16,16);
+    margin: auto;
+    margin-bottom: 100px;
+    width: 80%;
+    text-align: center;
+    height: 250px;
+    color: white;
+}
+.form-content input{
+    padding: 10px;
+    margin: 10px 0 10px 0px;
+}
+.form-content button{
+    text-align: center;
 }
